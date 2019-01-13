@@ -23,23 +23,23 @@ Feel free to add you name to the list of contributors for any file you've made c
 <Database>
     <GameDBStringTable ID="LOC_CZ_ACHIEVEMENTS">
         
-        <LanguageCode>cz</LanguageCode>
-        <LanguageNameLocalized>Čeština</LanguageNameLocalized>
+        <LanguageCode>FI</LanguageCode>
+        <LanguageNameLocalized>Suomi</LanguageNameLocalized>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>Jamme</Name>
         </Contributors>
 
 
 Some examples of the texts
 ==========================
 
-    <GameDBLocalizedString>      <LocID>CANCEL</LocID>                    <Text>Cancel</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>PERUUTA</LocID>                    <Text>PERUUTA</Text>  </GameDBLocalizedString>
 
-    <GameDBLocalizedString>      <LocID>OCCUPATION_DOCTOR</LocID>         <Text>Doctor</Text>  </GameDBLocalizedString>
-    <GameDBLocalizedString>      <LocID>OCCUPATION_NURSE</LocID>          <Text>Nurse</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>AMMATTI_LÄÄKÄRI</LocID>         <Text>Lääkäri</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>AMMATTI_SAIRAANHOITAJA</LocID>          <Text>Sairaanhoitaja</Text>  </GameDBLocalizedString>
 
-    <GameDBLocalizedString>      <LocID>DIA_FLU1_DESCRIPTION</LocID>      <Text>Influenza is a common infectious disease caused by ...</Text>  </GameDBLocalizedString>
+    <GameDBLocalizedString>      <LocID>DIA_FLUNSSA1_KUVAUS</LocID>      <Text>Flunssa on yleinen hengitystieninfektio. Aikuisilla se voi kehittyä keuhkokuumeeksi, lapsilla taas kurkunpääntulehdukseksi tai korvatulehdukseksi.</Text>  </GameDBLocalizedString>
 
 
 There are some formatting options available:
@@ -47,3 +47,4 @@ New line: \n
 Bold/italics:
 
     <![CDATA[Now <b><i>do something</i></b>.\nThis is on the next line.]]>
+    <GameDBLocalizedString>      <LocID>AMMATTI_ORTOPEDI</LocID>         <Text>Ortopedi</Text>  </GameDBLocalizedString>    
